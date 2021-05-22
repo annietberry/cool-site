@@ -1,0 +1,51 @@
+:root{
+  --header: rgb(51,72,166);
+  --light-blue: rgb(159, 182, 209);
+  --border: solid black;
+  --image-color: rgb(95, 119, 226);
+  --white: rgb(255, 255, 255);
+}
+
+.title-container{
+  background-color: var(--header);
+  width: 100vw;
+  height: 10em;
+  color: var(--white);
+  display: flex;
+  justify-content:center;
+  vertical-align:middle;
+  border:black;
+  border-style: solid;
+  border-width: 5px;
+}
+
+.light-header{
+  background-color:var(--light-blue);
+  width: 40%;
+  height: 2em;
+  transform: translateX(75%);
+  
+}
+
+
+
+.article
+{
+  text-align:center;
+  width: 100%;
+  
+}
+
+
+
+.bottom-header{
+  background-color: var(--header);
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.paragraph-format{
+
+}
